@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F3EAE3;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+}
+
+.card img {
+    width: 50%;
+}
+
+.right{
+    margin-left : 25px ;
+    width: 50%;
+    
+}
+
+.card .right .perfume{
+    text-transform: uppercase;
+    color:grey;
+    margin-top: 20px;
+    letter-spacing: 5px;
+
+}
+
+.card .right .centerTitle{
+    font-weight: 600;
+    width: 65%;
+  
+    line-height:150% ;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.card .right .centerTxt{
+ line-height: 130%;   
+ color:grey;
+ background-color: red;
+ width: 90%;
+ margin-bottom: 20px;
+
+}
+
+.card .right .priceLeft{
+    color:green;
+    display: flex;
+    
+    justify-content: space-around   ;
+}
+.card .right .priceLeft > p {
+    text-decoration:line-through;
+}
+.btn input {
+    background-color: green;
+    padding: 20px 80px;
+   
+    
+
+}
+
+.btn{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    background-color: red;
+    
+}
